@@ -44,6 +44,9 @@ fun GreetingScreen(
     val message by viewModel.message.collectAsState()
     Text(text = message)
     Button(onClick = {}) { Text(text = "Push Mee!") }
+    Button(onClick = { /*TODO*/ }) { Text(text="novo")
+
+    }
 }
 
 class MainViewModel(
